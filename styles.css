@@ -1,28 +1,42 @@
-
-.container {
+body {
   background-color: teal;
+}
+
+#main-container {
   margin: auto;
   padding-left: 5%;
   padding-right: 5%;
   height: 100%;
   width: 100%;
-  position: fixed;
+  position: relative;
 }
 
 .col-6 {
   height: 100%
   position: absolute;
-  padding: 2%;
+  padding: 8%;
 }
 
-.navbar {
+#nav-top {
   width: 100%;
+  position: fixed;
+  top: 0px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
+#nav-bottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .card {
   border-radius: 10px;
+  margin: auto;
+  width: 80%;
 }
 
 .card-body {
@@ -30,5 +44,13 @@
 }
 
 .project-image {
-  max-height: 60%;
+  height: 450px;
+}
+
+#gardener {
+  margin-right: 1%;
+}
+
+#other {
+  margin-left: 1%;
 }
