@@ -1,3 +1,29 @@
-h3 {
-  color: red;
+body {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+#nav-title {
+  color: white;
+  text-align: center;
+}
+
+ .card-deck {
+   overflow: auto;
+   background-color: green;
+   padding: 5%;
+   height: 100%;
+   position: fixed;
+ }
+
+ .card {
+   float: left;
+   margin: 1%;
+   width: 30%;
+ }
+
+.navbar {
+
 }
