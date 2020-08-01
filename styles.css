@@ -11,6 +11,25 @@ body {
   place-items: center;
 }
 
+#p1 {
+  height: 100%;
+}
+
+#p2 {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#projects {
+  margin-top: 4%;
+}
+
+.hovered-project {
+  height: auto;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
 #nav-top {
   width: 100%;
   border-bottom-left-radius: 10px;
@@ -20,8 +39,14 @@ body {
 #nav-bottom {
   width: 100%;
   bottom: 0px;
+  position: fixed;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+#nav-bottom.bottom-nav-collapse {
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  background: #000;
 }
 
 .card {
@@ -32,4 +57,19 @@ body {
   /* flex: 0 1 300px; */
   margin: 10px;
   width: clamp(300px, 75%, 550px)
+}
+
+.card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+  font-size: 100px;
+  color: white;
 }
