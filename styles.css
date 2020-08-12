@@ -11,15 +11,6 @@ body {
   place-items: center;
 }
 
-#p1 {
-  height: 100%;
-}
-
-#p2 {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
 #projects {
   margin-top: 4%;
 }
@@ -51,12 +42,31 @@ body {
 
 .card {
   height: 750px;
+  background-image: url("images/tree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   /* flex: 0 1 300px; */
   margin: 10px;
   width: clamp(300px, 75%, 550px)
+}
+
+.card-body {
+  margin-top: 60%;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title-move {
+  display: none;
 }
 
 .card-img-top {
@@ -68,8 +78,8 @@ body {
 
 .image-title {
   position: absolute;
-  bottom: 15px;
+  top: 15px;
   left: 16px;
-  font-size: 100px;
   color: white;
+  font-size: 6.5vw;
 }
