@@ -2,6 +2,7 @@
 
 .parallax {
   padding-top: 20%;
+  width: 100%;
   margin-top: 0px;
   background-image: url("../images/tree.jpg");
   height: 200px;
@@ -9,6 +10,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
+}
+
+#par_col {
+  text-align: center;
+  width: 100%;
 }
 
 #desc_title {
@@ -16,8 +23,13 @@
   padding-top: 1%;
 }
 
-#description {
-
+#p_title { /* fix this */
+  display: inline;
+  margin-top: -12%;
+  position: fixed;
+  color: white;
+  font-size: 5em;
+  margin-left: -35%;
 }
 
 #garden_text{
@@ -29,6 +41,6 @@
 
 .garden_info {
   padding-left: clamp(2%, 10%, 50%);
-  padding-right: clamp(2%, 30%, 50%);
+  padding-right: clamp(0%, 30%, 50%);
   font-family: Arial;
 }
